@@ -389,8 +389,8 @@ UnknownCommandMessage: "&bThat command doesn't exist!"
 # DiscordChatChannelServerStartupMessage: message to be sent when server starts; leave blank to disable
 # DiscordChatChannelServerShutdownMessage: message to be sent when server shuts down; leave blank to disable
 #
-DiscordChatChannelServerStartupMessage: ":white_check_mark: **Server has started**"
-DiscordChatChannelServerShutdownMessage: ":octagonal_sign: **Server has stopped**"
+DiscordChatChannelServerStartupMessage: "<@&1188431899631308870> :white_check_mark: **Server has started**"
+DiscordChatChannelServerShutdownMessage: "<@&1188431899631308870> :octagonal_sign: **Server has stopped**"
 
 # Server watchdog message
 #
