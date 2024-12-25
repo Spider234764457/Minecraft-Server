@@ -1,399 +1,148 @@
-[17:57:56] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Microsoft Microsoft-10376803) on Linux 6.5.0-1025-azure (amd64)
-[17:57:56] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-31-main@d0d0efe (2024-12-23T23:53:38Z) for Minecraft 1.21.4
-[17:57:56] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[17:57:57] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
-[17:57:57] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
+[15:44:46] [ServerMain/INFO]: [bootstrap] Running Java 23 (OpenJDK 64-Bit Server VM 23; Arch Linux null) on Linux 6.12.6-arch1-1 (amd64)
+[15:44:46] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-31-main@d0d0efe (2024-12-23T23:53:38Z) for Minecraft 1.21.4
+[15:44:46] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:44:49] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
+[15:44:49] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
  - DiscordSRV (1.29.0), Geyser-Spigot (2.6.0-SNAPSHOT), ViaBackwards (5.2.0), ViaVersion (5.2.0)
-[17:58:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:58:07] [ServerMain/INFO]: Loaded 1370 recipes
-[17:58:07] [ServerMain/INFO]: Loaded 1481 advancements
-[17:58:07] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[17:58:08] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 374.8ms
-[17:58:08] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[17:58:08] [Server thread/INFO]: Loading properties
-[17:58:08] [Server thread/INFO]: This server is running Paper version 1.21.4-31-main@d0d0efe (2024-12-23T23:53:38Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[17:58:09] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[17:58:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:58:09] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:58:10] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[17:58:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[17:58:11] [Server thread/INFO]: Default game type: SURVIVAL
-[17:58:11] [Server thread/INFO]: Generating keypair
-[17:58:11] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:58:11] [Server thread/INFO]: Using epoll channel type
-[17:58:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[17:58:11] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[17:58:12] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
-[17:58:12] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
-[17:58:13] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[17:58:14] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[17:58:14] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[17:58:14] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[17:58:15] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
-[17:58:16] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[17:58:16] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[17:58:16] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.29.0
-[17:58:16] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.0
-[17:58:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:58:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:58:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:58:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:58:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:58:16] [Server thread/INFO]: Preparing level "world"
-[17:58:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:58:18] [Server thread/INFO]: Preparing spawn area: 0%
-[17:58:18] [Server thread/INFO]: Preparing spawn area: 2%
-[17:58:19] [Server thread/INFO]: Preparing spawn area: 22%
-[17:58:19] [Server thread/INFO]: Preparing spawn area: 22%
-[17:58:19] [Server thread/INFO]: Time elapsed: 1691 ms
-[17:58:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:58:19] [Server thread/INFO]: Preparing spawn area: 0%
-[17:58:19] [Server thread/INFO]: Time elapsed: 490 ms
-[17:58:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:58:20] [Server thread/INFO]: Preparing spawn area: 0%
-[17:58:20] [Server thread/INFO]: Time elapsed: 295 ms
-[17:58:20] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
-[17:58:20] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
-[17:58:20] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
-[17:58:20] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
-[17:58:21] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.0
-[17:58:21] [Server thread/INFO]: [spark] Starting background profiler...
-[17:58:21] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[17:58:21] [Server thread/INFO]: [Geyser-Spigot] 
-[17:58:21] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b738 (git-master-6bd60d4)
-[17:58:21] [Server thread/INFO]: [Geyser-Spigot] 
-[17:58:21] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[17:58:22] [pool-17-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
-[17:58:23] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[17:58:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[17:58:26] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[17:58:26] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
-[17:58:31] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 25565
-[17:58:31] [Server thread/INFO]: [Geyser-Spigot] Done (9.386s)! Run /geyser help for help!
-[17:58:31] [Server thread/INFO]: Done preparing level "world" (14.489s)
-[17:58:31] [Server thread/INFO]: Running delayed init tasks
-[17:58:31] [Server thread/INFO]: Done (36.052s)! For help, type "help"
-[17:58:31] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[17:58:32] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 2/2 guilds (0 cancelled)
-[17:58:41] [User Authenticator #0/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
-[17:58:42] [Server thread/INFO]: Spider2742 joined the game
-[17:58:43] [Server thread/INFO]: Spider2742[/127.215.210.245:59509] logged in with entity id 23 at ([world]181.14022340308824, 71.9375, 218.7706514497302)
-[18:05:54] [Server thread/INFO]: Added Janwin to the whitelist
-[18:10:24] [User Authenticator #1/INFO]: UUID of player Janwin is 09199170-8b6a-3aa2-8375-486358d2e5aa
-[18:10:26] [Server thread/INFO]: Janwin joined the game
-[18:10:26] [Server thread/INFO]: Janwin[/127.162.183.230:38841] logged in with entity id 2210 at ([world]-133.5, 78.0, -54.5)
-[18:11:48] [Server thread/INFO]: Villager Villager['Villager'/26, uuid='aee0a43a-89fc-41a6-8ee5-fbcaa4898b42', l='ServerLevel[world]', x=167.70, y=76.00, z=138.52, cpos=[10, 8], tl=185383, v=true] died, message: 'Villager was slain by Zombie'
-[18:11:52] [Server thread/INFO]: Janwin was blown up by Creeper
-[18:13:06] [Async Chat Thread - #1/INFO]: [Not Secure] <Janwin> bhai fov kese change karu
-[18:13:51] [Server thread/INFO]: Spider2742 has made the advancement [Cover Me with Diamonds]
-[18:15:15] [Server thread/INFO]: Janwin was shot by Skeleton
-[18:18:00] [Server thread/INFO]: Teleported Janwin to Spider2742
-[18:18:59] [Server thread/WARN]: Spider2742 moved wrongly!
-[18:19:35] [Server thread/WARN]: Spider2742 moved wrongly!
-[18:19:36] [Server thread/WARN]: Spider2742 moved wrongly!
-[18:23:14] [Server thread/INFO]: Spider2742 has made the advancement [Ice Bucket Challenge]
-[18:25:41] [Server thread/INFO]: Teleported Janwin to Spider2742
-[18:25:48] [Server thread/INFO]: Janwin has made the advancement [Ice Bucket Challenge]
-[18:26:02] [Server thread/INFO]: Janwin tried to swim in lava
-[18:26:18] [Server thread/INFO]: Teleported Janwin to Spider2742
-[18:27:21] [Server thread/WARN]: Spider2742 moved wrongly!
-[18:27:21] [Server thread/WARN]: Spider2742 moved wrongly!
-[18:27:27] [Server thread/INFO]: Teleported Janwin to Spider2742
-[18:27:30] [Server thread/INFO]: Janwin has made the advancement [Diamonds!]
-[18:27:31] [Server thread/INFO]: Janwin has made the advancement [Stone Age]
-[18:27:38] [Server thread/INFO]: Janwin has made the advancement [Acquire Hardware]
-[18:27:52] [Server thread/INFO]: Janwin was slain by Spider2742
-[18:28:08] [Server thread/INFO]: Teleported Janwin to Spider2742
-[18:28:18] [Server thread/INFO]: Janwin has made the advancement [Sweet Dreams]
-[18:30:45] [Server thread/INFO]: Spider2742 has made the advancement [We Need to Go Deeper]
-[18:32:31] [Server thread/INFO]: Janwin was slain by Spider2742
-[18:33:46] [Server thread/INFO]: Janwin has made the advancement [Isn't It Iron Pick]
-[18:34:49] [Server thread/INFO]: Spider2742 has made the advancement [Hidden in the Depths]
-[18:47:03] [Server thread/INFO]: Janwin was slain by Spider2742
-[18:48:45] [Server thread/INFO]: Spider2742 has made the advancement [Take Aim]
-[18:52:29] [Server thread/INFO]: Added Sp1d3rB0t to the whitelist
-[18:53:07] [Server thread/INFO]: Spider2742 suffocated in a wall
-[18:53:49] [User Authenticator #2/INFO]: UUID of player Sp1d3rB0t is 2adcb937-38c4-3abe-9218-061c14ddcd26
-[18:53:49] [Server thread/INFO]: Sp1d3rB0t joined the game
-[18:53:49] [Server thread/INFO]: Sp1d3rB0t[/127.215.210.245:49811] logged in with entity id 13287 at ([world]-128.5, 90.0, -63.5)
-[18:53:49] [Server thread/INFO]: Sp1d3rB0t issued server command: /skin clear
-[18:53:52] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> Hello world! I'm Sp1d3rB0t. 
-[18:54:15] [Server thread/INFO]: Teleported Sp1d3rB0t to Spider2742
-[18:54:15] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 186 68 52
-[18:54:16] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 186 68 52
-[18:54:33] [Async Chat Thread - #2/INFO]: [Not Secure] <Spider2742> hey Sp1d3rB0t
-[18:54:36] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> Hey Spider2742 
-[18:54:46] [Async Chat Thread - #2/INFO]: [Not Secure] <Janwin> chut dede bhai
-[18:54:48] [Async Chat Thread - #2/INFO]: [Not Secure] <Spider2742> take this sword and attack janwin
-[18:54:52] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> Picking up item! 
-[18:54:53] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:54:53] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 195 69 35
-[18:54:54] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:54:54] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 187 69 33
-[18:54:54] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:54:54] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 187 69 33
-[18:54:54] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:54:54] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 195 69 35
-[18:54:54] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:54:54] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 195 69 35
-[18:54:55] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:54:55] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 193 69 34
-[18:54:55] [Server thread/INFO]: Sp1d3rB0t lost connection: Kicked for spamming
-[18:54:55] [Server thread/INFO]: Sp1d3rB0t left the game
-[18:54:59] [User Authenticator #3/INFO]: UUID of player Sp1d3rB0t is 2adcb937-38c4-3abe-9218-061c14ddcd26
-[18:54:59] [Server thread/INFO]: Sp1d3rB0t joined the game
-[18:54:59] [Server thread/INFO]: Sp1d3rB0t[/127.215.210.245:35365] logged in with entity id 13583 at ([world]186.5, 69.0, 53.689420129984086)
-[18:54:59] [Server thread/INFO]: Sp1d3rB0t issued server command: /skin clear
-[18:55:02] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s Janwin
-[18:55:02] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t>  !goToPlayer("Janwin", 3)
-[18:55:03] [Server thread/INFO]: Sp1d3rB0t was slain by Janwin
-[18:55:03] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:55:03] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 195 69 36
-[18:55:13] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t>  !attackPlayer("Janwin")
-[18:55:20] [Server thread/INFO]: Teleported Sp1d3rB0t to Spider2742
-[18:55:22] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t>  !stats
-[18:55:26] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:55:26] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 182 64 27
-[18:55:27] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:55:27] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 182 64 27
-[18:55:27] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:55:27] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 182 64 27
-[18:55:27] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:55:27] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 182 64 27
-[18:55:28] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:55:28] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 182 64 27
-[18:55:28] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:55:28] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 199 69 40
-[18:55:28] [Server thread/INFO]: Sp1d3rB0t lost connection: Kicked for spamming
-[18:55:28] [Server thread/INFO]: Sp1d3rB0t left the game
-[18:55:32] [User Authenticator #3/INFO]: UUID of player Sp1d3rB0t is 2adcb937-38c4-3abe-9218-061c14ddcd26
-[18:55:32] [Server thread/INFO]: Sp1d3rB0t joined the game
-[18:55:32] [Server thread/INFO]: Sp1d3rB0t[/127.215.210.245:41721] logged in with entity id 13762 at ([world]180.52803019817898, 69.0, 47.5)
-[18:55:32] [Server thread/INFO]: Sp1d3rB0t issued server command: /skin clear
-[18:55:46] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> Picking up item! 
-[18:55:48] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:55:48] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 202 68 44
-[18:55:48] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:55:48] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 187 63 27
-[18:55:48] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:55:48] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 187 63 27
-[18:55:49] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:55:49] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 187 63 27
-[18:55:49] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:55:49] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 189 69 65
-[18:55:49] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:55:49] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 187 63 27
-[18:55:49] [Server thread/INFO]: Sp1d3rB0t lost connection: Kicked for spamming
-[18:55:49] [Server thread/INFO]: Sp1d3rB0t left the game
-[18:55:53] [User Authenticator #3/INFO]: UUID of player Sp1d3rB0t is 2adcb937-38c4-3abe-9218-061c14ddcd26
-[18:55:53] [Server thread/INFO]: Sp1d3rB0t joined the game
-[18:55:53] [Server thread/INFO]: Sp1d3rB0t[/127.215.210.245:48235] logged in with entity id 13808 at ([world]182.51042504211622, 69.0, 46.48896164292614)
-[18:55:53] [Server thread/INFO]: Sp1d3rB0t issued server command: /skin clear
-[18:56:09] [Async Chat Thread - #2/INFO]: [Not Secure] <Spider2742> eat the food in your inv
-[18:56:17] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t>  !consume("cooked_mutton")
-[18:56:18] [Async Chat Thread - #2/INFO]: [Not Secure] <Janwin> eat the ass
-[18:56:27] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t>  !attackPlayer("Janwin")
-[18:56:32] [Server thread/INFO]: Janwin was slain by Sp1d3rB0t
-[18:56:34] [Server thread/INFO]: Sp1d3rB0t has made the advancement [Isn't It Iron Pick]
-[18:56:36] [Server thread/INFO]: Sp1d3rB0t has made the advancement [Stone Age]
-[18:56:42] [Async Chat Thread - #2/INFO]: [Not Secure] <Spider2742> give me the sword back
-[18:56:46] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:56:46] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 199 70 64
-[18:56:46] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:56:46] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 197 70 66
-[18:56:47] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:56:47] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 200 70 77
-[18:56:47] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:56:47] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 200 71 76
-[18:56:47] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s Spider2742
-[18:56:47] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t>  !givePlayer("Spider2742", "iron_sword", 1)
-[18:56:47] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:56:48] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 202 71 75
-[18:56:48] [Server thread/INFO]: Sp1d3rB0t lost connection: Kicked for spamming
-[18:56:48] [Server thread/INFO]: Sp1d3rB0t left the game
-[18:56:52] [User Authenticator #3/INFO]: UUID of player Sp1d3rB0t is 2adcb937-38c4-3abe-9218-061c14ddcd26
-[18:56:52] [Server thread/INFO]: Sp1d3rB0t joined the game
-[18:56:52] [Server thread/INFO]: Sp1d3rB0t[/127.215.210.245:47347] logged in with entity id 13965 at ([world]183.11627425, 69.57964078505188, 70.53606367280189)
-[18:56:52] [Server thread/INFO]: Sp1d3rB0t issued server command: /skin clear
-[18:56:52] [Async Chat Thread - #3/INFO]: [Not Secure] <Spider2742> stop attacking janwin
-[18:56:55] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t>  !goToPlayer("Spider2742", 2)
-[18:56:55] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s Spider2742
-[18:56:55] [Server thread/INFO]: Sp1d3rB0t was slain by Janwin
-[18:56:55] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:56:55] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 189 69 53
-[18:57:29] [Server thread/INFO]: Sp1d3rB0t lost connection: Disconnected
-[18:57:29] [Server thread/INFO]: Sp1d3rB0t left the game
-[18:57:34] [User Authenticator #3/INFO]: UUID of player Sp1d3rB0t is 2adcb937-38c4-3abe-9218-061c14ddcd26
-[18:57:34] [Server thread/INFO]: Sp1d3rB0t joined the game
-[18:57:34] [Server thread/INFO]: Sp1d3rB0t[/127.215.210.245:51573] logged in with entity id 14218 at ([world]-129.5, 83.0, -54.5)
-[18:57:34] [Server thread/INFO]: Sp1d3rB0t issued server command: /skin clear
-[18:57:37] [Async Chat Thread - #2/INFO]: [Not Secure] <Sp1d3rB0t> Hello world! I'm Sp1d3rB0t. 
-[18:57:40] [Async Chat Thread - #2/INFO]: [Not Secure] <Janwin> yoopo
-[18:57:41] [Async Chat Thread - #2/INFO]: [Not Secure] <Spider2742> dont attack janwin now
-[18:57:48] [Async Chat Thread - #4/INFO]: [Not Secure] <Sp1d3rB0t>  !stfu
-[18:57:48] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> Shutting up. 
-[18:58:14] [Server thread/INFO]: Teleported Sp1d3rB0t to Spider2742
-[18:58:15] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 183 69 49
-[18:58:21] [Async Chat Thread - #3/INFO]: [Not Secure] <Spider2742> listen Sp1d3rB0t
-[18:58:24] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> Okay. 
-[18:58:40] [Async Chat Thread - #3/INFO]: [Not Secure] <Spider2742> dont listen to janwin and protect me if he or any mob attacks me
-[18:58:42] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t>  !followPlayer("Spider2742", 5)
-[18:58:44] [Async Chat Thread - #3/INFO]: [Not Secure] <Janwin> aur bhai spider bot
-[18:59:13] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:59:14] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 178 70 74
-[18:59:14] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:59:15] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 190 69 48
-[18:59:15] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:59:15] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 190 69 48
-[18:59:15] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:59:16] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 190 69 48
-[18:59:16] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> I'm dying! 
-[18:59:17] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 190 69 48
-[18:59:25] [Server thread/INFO]: Janwin was slain by Spider2742
-[18:59:27] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> Picking up item! 
-[18:59:42] [Async Chat Thread - #4/INFO]: [Not Secure] <Sp1d3rB0t> Picking up item! 
-[18:59:44] [Async Chat Thread - #4/INFO]: [Not Secure] <Spider2742> give all the stuff you have to janwin
-[18:59:45] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> Picking up item! 
-[18:59:46] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t>  !givePlayer("Janwin", "gold_ingot", 18)
-[18:59:47] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s Janwin
-[18:59:50] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> Picking up item! 
-[19:00:00] [Server thread/INFO]: Janwin was slain by Spider2742
-[19:00:03] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t> Picking up item! 
-[19:00:07] [Async Chat Thread - #3/INFO]: [Not Secure] <Spider2742> pick up the stuff
-[19:00:39] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:39] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:40] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:40] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:40] [Async Chat Thread - #3/INFO]: [Not Secure] <Spider2742> eat the food in your inv and heal
-[19:00:43] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t>  !consume("cooked_mutton")
-[19:00:45] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:46] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:47] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:48] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:48] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:49] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:49] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:50] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:51] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:51] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:52] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:52] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:53] [Async Chat Thread - #3/INFO]: [Not Secure] <Sp1d3rB0t>  !consume("cooked_porkchop")
-[19:00:53] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:54] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:55] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:55] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:56] [Async Chat Thread - #3/INFO]: [Not Secure] <Janwin> eat vansh ki gaand
-[19:00:56] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:00:57] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 70 83
-[19:02:25] [Async Chat Thread - #5/INFO]: [Not Secure] <Spider2742> eat the food in your inv and heal
-[19:02:27] [Async Chat Thread - #5/INFO]: [Not Secure] <Sp1d3rB0t>  !consume("cooked_porkchop")
-[19:02:37] [Async Chat Thread - #5/INFO]: [Not Secure] <Sp1d3rB0t>  !collectBlocks("cobblestone", 64)
-[19:02:43] [Async Chat Thread - #5/INFO]: [Not Secure] <Spider2742> stop
-[19:02:46] [Async Chat Thread - #5/INFO]: [Not Secure] <Spider2742> tcome back
-[19:02:57] [Async Chat Thread - #5/INFO]: [Not Secure] <Sp1d3rB0t>  !goToPlayer("Spider2742", 3)
-[19:02:58] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s Spider2742
-[19:03:09] [Async Chat Thread - #5/INFO]: [Not Secure] <Spider2742> split out your whole inv on Janwin
-[19:03:17] [Async Chat Thread - #5/INFO]: [Not Secure] <Sp1d3rB0t>  !givePlayer("Janwin", "oak_planks", 215)
-[19:03:17] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s Janwin
-[19:03:17] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s Janwin
-[19:03:23] [Async Chat Thread - #5/INFO]: [Not Secure] <Sp1d3rB0t> Picking up item! 
-[19:03:27] [Async Chat Thread - #5/INFO]: [Not Secure] <Sp1d3rB0t>  !givePlayer("Janwin", "cobblestone", 74)
-[19:03:27] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s Janwin
-[19:03:27] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s Janwin
-[19:03:32] [Async Chat Thread - #5/INFO]: [Not Secure] <Spider2742> go to janwin first
-[19:03:37] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s Janwin
-[19:03:37] [Async Chat Thread - #5/INFO]: [Not Secure] <Sp1d3rB0t>  !goToPlayer("Janwin", 3)
-[19:03:40] [Async Chat Thread - #5/INFO]: [Not Secure] <Spider2742> tnow empty your inv
-[19:03:47] [Async Chat Thread - #5/INFO]: [Not Secure] <Sp1d3rB0t>  !discard("white_bed",1)
-[19:03:47] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 216 62 31
-[19:03:47] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 216.31643414329108 67 33.5
-[19:03:50] [Async Chat Thread - #5/INFO]: [Not Secure] <Sp1d3rB0t> Picking up item! 
-[19:03:57] [Async Chat Thread - #5/INFO]: [Not Secure] <Spider2742> dont pick it back up
-[19:04:03] [Async Chat Thread - #5/INFO]: [Not Secure] <Spider2742> throw everything
-[19:04:07] [Async Chat Thread - #6/INFO]: [Not Secure] <Sp1d3rB0t>  !discard("oak_planks",215)
-[19:04:07] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 64 33
-[19:04:07] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 213.5 68 34.57147903893954
-[19:04:27] [Async Chat Thread - #6/INFO]: [Not Secure] <Spider2742> everything in inv completely empty it
-[19:04:31] [Async Chat Thread - #6/INFO]: [Not Secure] <Sp1d3rB0t>  !discard("dandelion",1)
-[19:04:31] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 64 33
-[19:04:31] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 213.5 68 34.57147903893954
-[19:04:36] [Async Chat Thread - #6/INFO]: [Not Secure] <Spider2742> everything in inv completely empty it
-[19:04:40] [Async Chat Thread - #6/INFO]: [Not Secure] <Sp1d3rB0t>  !discard("leather",2)
-[19:04:40] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 209 64 33
-[19:04:40] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 213.5 68 34.57147903893954
-[19:04:42] [Async Chat Thread - #6/INFO]: [Not Secure] <Sp1d3rB0t> Picking up item! 
-[19:04:50] [Async Chat Thread - #6/INFO]: [Not Secure] <Sp1d3rB0t>  !discard("cooked_mutton",7)
-[19:04:50] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 216 62 31
-[19:04:50] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s 215.3175641178239 68 35.55274808900434
-[19:04:52] [Async Chat Thread - #5/INFO]: [Not Secure] <Sp1d3rB0t> Picking up item! 
-[19:04:53] [Async Chat Thread - #6/INFO]: [Not Secure] <Spider2742> give them all to janwin its his stuff
-[19:05:00] [Async Chat Thread - #6/INFO]: [Not Secure] <Sp1d3rB0t>  !givePlayer("Janwin", "cooked_porkchop", 8)
-[19:05:00] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s Janwin
-[19:05:09] [Server thread/INFO]: Janwin was slain by Spider2742
-[19:05:10] [Async Chat Thread - #6/INFO]: [Not Secure] <Sp1d3rB0t>  !givePlayer("Janwin", "emerald", 1)
-[19:05:11] [Async Chat Thread - #6/INFO]: [Not Secure] <Sp1d3rB0t> Picking up item! 
-[19:05:19] [Async Chat Thread - #6/INFO]: [Not Secure] <Spider2742> pickup the stuff
-[19:05:21] [Async Chat Thread - #6/INFO]: [Not Secure] <Sp1d3rB0t> Picking up item! 
-[19:05:23] [Async Chat Thread - #6/INFO]: [Not Secure] <Spider2742> and sleep
-[19:05:34] [Async Chat Thread - #6/INFO]: [Not Secure] <Spider2742> follow me
-[19:05:40] [Async Chat Thread - #6/INFO]: [Not Secure] <Sp1d3rB0t>  !followPlayer("Spider2742", 5)
-[19:05:50] [Async Chat Thread - #6/INFO]: [Not Secure] <Spider2742> protect me
-[19:05:53] [Async Chat Thread - #6/INFO]: [Not Secure] <Sp1d3rB0t>  !setMode("cowardice", true)
-[19:05:53] [Async Chat Thread - #6/INFO]: [Not Secure] <Sp1d3rB0t> Aaa! A skeleton! 
-[19:06:06] [Async Chat Thread - #6/INFO]: [Not Secure] <Sp1d3rB0t> Aaa! A skeleton! 
-[19:06:21] [Server thread/INFO]: Janwin was slain by Zombie
-[19:06:25] [Async Chat Thread - #6/INFO]: [Not Secure] <Sp1d3rB0t> Picking up item! 
-[19:06:28] [Server thread/INFO]: Janwin lost connection: Disconnected
-[19:06:28] [Server thread/INFO]: Janwin left the game
-[19:06:32] [Async Chat Thread - #6/INFO]: [Not Secure] <Spider2742> come here Sp1d3rB0t
-[19:06:35] [Async Chat Thread - #5/INFO]: [Not Secure] <Sp1d3rB0t> On my way! !goToPlayer("Spider2742", 3)
-[19:06:35] [Async Chat Thread - #6/INFO]: [Not Secure] <Sp1d3rB0t> Picking up item! 
-[19:06:35] [Server thread/INFO]: Sp1d3rB0t issued server command: /tp @s Spider2742
-[19:07:03] [Async Chat Thread - #5/INFO]: [Not Secure] <Spider2742> thanks for playing with us
-[19:07:12] [Async Chat Thread - #5/INFO]: [Not Secure] <Spider2742> lets leave the server now
-[19:07:15] [Async Chat Thread - #5/INFO]: [Not Secure] <Sp1d3rB0t> Okay. !stop
-[19:07:23] [Server thread/INFO]: Sp1d3rB0t lost connection: Disconnected
-[19:07:23] [Server thread/INFO]: Sp1d3rB0t left the game
-[19:07:29] [Server thread/INFO]: Spider2742 lost connection: Disconnected
-[19:07:29] [Server thread/INFO]: Spider2742 left the game
-[19:07:36] [Server thread/INFO]: Stopping server
-[19:07:36] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.0
-[19:07:36] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
-[19:07:37] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 781ms
-[19:07:37] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
-[19:07:37] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[19:07:37] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[19:07:37] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.0
-[19:07:37] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[19:07:37] [Server thread/INFO]: Saving players
-[19:07:37] [Server thread/INFO]: Saving worlds
-[19:07:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:07:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[19:07:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[19:07:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[19:07:37] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 60 entity chunks, 0 poi chunks in world 'world' in 0.04s
-[19:07:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[19:07:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[19:07:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[19:07:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[19:07:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[19:07:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[19:07:37] [Server thread/INFO]: [ChunkHolderManager] Saved 87 block chunks, 105 entity chunks, 0 poi chunks in world 'world_nether' in 0.12s
-[19:07:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[19:07:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[19:07:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[19:07:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[19:07:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[19:07:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[19:07:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[19:07:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[19:07:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[19:07:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:07:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:07:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:07:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:07:37] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[19:07:37] [Server thread/INFO]: All I/O tasks to complete
-[19:07:37] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[19:07:37] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[15:44:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:44:57] [ServerMain/INFO]: Loaded 1370 recipes
+[15:44:57] [ServerMain/INFO]: Loaded 1481 advancements
+[15:44:57] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[15:44:58] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 313.3ms
+[15:44:58] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[15:44:58] [Server thread/INFO]: Loading properties
+[15:44:58] [Server thread/INFO]: This server is running Paper version 1.21.4-31-main@d0d0efe (2024-12-23T23:53:38Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[15:44:59] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:44:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:44:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:45:00] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:45:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:45:01] [Server thread/INFO]: Default game type: SURVIVAL
+[15:45:01] [Server thread/INFO]: Generating keypair
+[15:45:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:45:01] [Server thread/INFO]: Using epoll channel type
+[15:45:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:45:01] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[15:45:03] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
+[15:45:03] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
+[15:45:04] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[15:45:04] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[15:45:05] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[15:45:05] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[15:45:05] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
+[15:45:07] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[15:45:07] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[15:45:07] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.0
+[15:45:07] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.29.0
+[15:45:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:45:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:45:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:45:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:45:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:45:07] [Server thread/INFO]: Preparing level "world"
+[15:45:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:45:08] [Server thread/INFO]: Preparing spawn area: 0%
+[15:45:08] [Server thread/INFO]: Preparing spawn area: 2%
+[15:45:09] [Server thread/INFO]: Preparing spawn area: 24%
+[15:45:09] [Server thread/INFO]: Time elapsed: 1246 ms
+[15:45:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:45:09] [Server thread/INFO]: Preparing spawn area: 0%
+[15:45:09] [Server thread/INFO]: Time elapsed: 384 ms
+[15:45:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:45:09] [Server thread/INFO]: Preparing spawn area: 0%
+[15:45:09] [Server thread/INFO]: Time elapsed: 214 ms
+[15:45:09] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
+[15:45:09] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[15:45:09] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
+[15:45:10] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.0
+[15:45:10] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
+[15:45:10] [Server thread/INFO]: [spark] Starting background profiler...
+[15:45:11] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[15:45:11] [Server thread/INFO]: [Geyser-Spigot] 
+[15:45:11] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b738 (git-master-6bd60d4)
+[15:45:11] [Server thread/INFO]: [Geyser-Spigot] 
+[15:45:11] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[15:45:13] [pool-17-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
+[15:45:13] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[15:45:15] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[15:45:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[15:45:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
+[15:45:19] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 25565
+[15:45:19] [Server thread/INFO]: [Geyser-Spigot] Done (8.328s)! Run /geyser help for help!
+[15:45:19] [Server thread/INFO]: Done preparing level "world" (12.676s)
+[15:45:21] [Server thread/INFO]: Running delayed init tasks
+[15:45:21] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[15:45:21] [Server thread/INFO]: Done (37.413s)! For help, type "help"
+[15:45:21] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[15:46:36] [User Authenticator #0/INFO]: UUID of player BBEASTISHANK is 6d90fc3b-7224-3212-8a46-a857858d8a22
+[15:46:38] [Server thread/INFO]: BBEASTISHANK joined the game
+[15:46:38] [Server thread/INFO]: BBEASTISHANK[/127.87.90.118:45385] logged in with entity id 166 at ([world]184.3307029139747, 69.0, 59.500478420029886)
+[15:48:37] [Server thread/INFO]: BBEASTISHANK lost connection: Disconnected
+[15:48:37] [Server thread/INFO]: BBEASTISHANK left the game
+[15:49:48] [User Authenticator #1/INFO]: UUID of player BBEASTISHANK is 6d90fc3b-7224-3212-8a46-a857858d8a22
+[15:49:49] [Server thread/INFO]: BBEASTISHANK joined the game
+[15:49:49] [Server thread/INFO]: BBEASTISHANK[/127.87.90.118:59707] logged in with entity id 570 at ([world]188.4209253804658, 70.0, 59.895932217993575)
+[15:59:35] [Server thread/INFO]: BBEASTISHANK lost connection: Disconnected
+[15:59:35] [Server thread/INFO]: BBEASTISHANK left the game
+[16:00:16] [User Authenticator #2/INFO]: UUID of player Sp1d3rB0t is 2adcb937-38c4-3abe-9218-061c14ddcd26
+[16:00:16] [Server thread/INFO]: Sp1d3rB0t joined the game
+[16:00:16] [Server thread/INFO]: Sp1d3rB0t[/127.87.90.118:53651] logged in with entity id 2568 at ([world]190.63235887753285, 69.0, 52.55703795474041)
+[16:00:43] [Server thread/INFO]: Sp1d3rB0t lost connection: Disconnected
+[16:00:43] [Server thread/INFO]: Sp1d3rB0t left the game
+[16:01:11] [User Authenticator #2/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
+[16:01:12] [Server thread/INFO]: Spider2742 joined the game
+[16:01:12] [Server thread/INFO]: Spider2742[/127.87.90.118:45161] logged in with entity id 2793 at ([world]188.05911660701756, 70.0, 54.52960633430085)
+[16:02:04] [Server thread/INFO]: Spider2742 lost connection: Disconnected
+[16:02:04] [Server thread/INFO]: Spider2742 left the game
+[16:02:41] [User Authenticator #3/INFO]: UUID of player BBEASTISHANK is 6d90fc3b-7224-3212-8a46-a857858d8a22
+[16:02:42] [Server thread/INFO]: BBEASTISHANK joined the game
+[16:02:42] [Server thread/INFO]: BBEASTISHANK[/127.87.90.118:41277] logged in with entity id 3039 at ([world]201.18675101536564, 69.0, 58.49054285922205)
+[16:03:23] [Server thread/INFO]: BBEASTISHANK has made the advancement [Diamonds!]
+[17:06:45] [Server thread/INFO]: BBEASTISHANK lost connection: Disconnected
+[17:06:45] [Server thread/INFO]: BBEASTISHANK left the game
+[17:08:32] [User Authenticator #4/INFO]: UUID of player BBEASTISHANK is 6d90fc3b-7224-3212-8a46-a857858d8a22
+[17:08:33] [Server thread/INFO]: BBEASTISHANK joined the game
+[17:08:33] [Server thread/INFO]: BBEASTISHANK[/127.87.90.118:46889] logged in with entity id 14277 at ([world]248.20968628290407, 68.0, 26.332113821380045)
+[17:09:15] [Server thread/INFO]: BBEASTISHANK lost connection: Disconnected
+[17:09:15] [Server thread/INFO]: BBEASTISHANK left the game
+[17:09:21] [Server thread/INFO]: Stopping the server
+[17:09:21] [Server thread/INFO]: Stopping server
+[17:09:21] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
+[17:09:22] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 1333ms
+[17:09:22] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.0
+[17:09:22] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
+[17:09:22] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[17:09:22] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[17:09:22] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.0
+[17:09:22] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[17:09:22] [Server thread/INFO]: Saving players
+[17:09:22] [Server thread/INFO]: Saving worlds
+[17:09:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:09:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:09:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:09:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:09:23] [Server thread/INFO]: [ChunkHolderManager] Saved 230 block chunks, 228 entity chunks, 0 poi chunks in world 'world' in 0.66s
+[17:09:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[17:09:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[17:09:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:09:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:09:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:09:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:09:23] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 30 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
+[17:09:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[17:09:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[17:09:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:09:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:09:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:09:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:09:23] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[17:09:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[17:09:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[17:09:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:09:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:09:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:09:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:09:23] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[17:09:23] [Server thread/INFO]: All I/O tasks to complete
+[17:09:23] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[17:09:23] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
