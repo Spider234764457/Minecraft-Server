@@ -94,3 +94,67 @@
 [17:12:38] [Server thread/INFO]: Done (70.108s)! For help, type "help"
 [17:12:38] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
 [17:12:38] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 2/2 guilds (0 cancelled)
+[17:16:48] [User Authenticator #0/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
+[17:16:50] [Server thread/INFO]: Spider2742[/127.215.210.245:47795] logged in with entity id 142 at ([world]218.6626957331491, 68.0, 62.252682038841684)
+[17:17:08] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Spider2742 has successfully logged in.
+[17:21:29] [Server thread/INFO]: Spider2742 has made the advancement [A Terrible Fortress]
+[17:30:59] [Server thread/INFO]: Spider2742 lost connection: Disconnected
+[17:34:48] [User Authenticator #1/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
+[17:34:49] [Server thread/ERROR]: Tried to load invalid item: 'Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:lava missed input: {"minecraft:bundle_contents":[{count:64,id:"minecraft:obsidian"},{count:7,id:"minecraft:lava"},{count:64,id:"minecraft:oak_log"},{count:17,id:"minecraft:iron_block"}]}'
+[17:34:49] [Server thread/INFO]: Spider2742[/127.215.210.245:34689] logged in with entity id 2687 at ([world]230.18843108933336, 68.0, 30.601464347790493)
+[17:34:53] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Spider2742 has successfully logged in.
+[17:49:38] [Server thread/INFO]: Spider2742 lost connection: Disconnected
+[17:49:43] [User Authenticator #2/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
+[17:49:43] [Server thread/INFO]: Spider2742[/127.215.210.245:34343] logged in with entity id 4791 at ([world]228.03770556328936, 67.0, 25.00500275679741)
+[17:49:45] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Spider2742 has successfully logged in.
+[17:50:10] [User Authenticator #2/INFO]: UUID of player Sp1d3rB0t is 2adcb937-38c4-3abe-9218-061c14ddcd26
+[17:50:11] [Server thread/INFO]: Sp1d3rB0t[/127.215.210.245:43047] logged in with entity id 4844 at ([world]186.5997661114236, 69.0, 60.47143607839574)
+[17:50:53] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Sp1d3rB0t has successfully registered.
+[17:51:44] [Async Chat Thread - #0/INFO]: [Not Secure] <Spider2742> #bot gotoplayer Spider2742
+[17:52:11] [Async Chat Thread - #0/INFO]: [Not Secure] <Spider2742> #bot gotoplayer Spider2742
+[17:52:33] [Async Chat Thread - #0/INFO]: [Not Secure] <Spider2742> !bot gotoplayer Spider2742
+[17:52:47] [Async Chat Thread - #0/INFO]: [Not Secure] <Spider2742> !bot gotoplayer Spider2742
+[17:53:37] [Async Chat Thread - #0/INFO]: [Not Secure] <Spider2742> !bot gotoblock 226.80 67.00 23.93
+[17:53:41] [Async Chat Thread - #0/INFO]: [Not Secure] <Spider2742> !bot gotoblock 226.80 67.00 23.93
+[17:54:05] [Async Chat Thread - #0/INFO]: [Not Secure] <Spider2742> !bot gotoblock 227 67.00 22
+[17:55:38] [Async Chat Thread - #2/INFO]: [Not Secure] <Spider2742> !bot mine cobblestone
+[17:55:57] [Server thread/INFO]: Sp1d3rB0t was slain by Spider2742
+[17:56:22] [Async Chat Thread - #2/INFO]: [Not Secure] <Spider2742> !bot stopmine
+[17:57:57] [Server thread/INFO]: Unknown or incomplete command, see below for error
+p Sp1d3rB0t Spider2742<--[HERE]
+[17:58:05] [Server thread/INFO]: Teleported Sp1d3rB0t to Spider2742
+[17:58:23] [Async Chat Thread - #4/INFO]: [Not Secure] <Spider2742> !bot mine cobblestone
+[17:59:11] [Server thread/INFO]: Sp1d3rB0t lost connection: Disconnected
+[17:59:13] [User Authenticator #3/INFO]: UUID of player Sp1d3rB0t is 2adcb937-38c4-3abe-9218-061c14ddcd26
+[17:59:13] [Server thread/INFO]: Sp1d3rB0t[/127.215.210.245:55237] logged in with entity id 6356 at ([world]227.30000001192093, 67.0, 22.30000001192093)
+[17:59:22] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Sp1d3rB0t has successfully logged in.
+[17:59:39] [Server thread/INFO]: Sp1d3rB0t lost connection: Disconnected
+[17:59:52] [User Authenticator #3/INFO]: UUID of player Sp1d3rB0t is 2adcb937-38c4-3abe-9218-061c14ddcd26
+[17:59:52] [Server thread/INFO]: Sp1d3rB0t[/127.215.210.245:54685] logged in with entity id 6427 at ([world]227.30000001192093, 67.0, 22.30000001192093)
+[18:00:03] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Sp1d3rB0t has successfully logged in.
+[18:00:11] [Async Chat Thread - #6/INFO]: [Not Secure] <Spider2742> !bot mine cobblestone
+[18:00:38] [Server thread/INFO]: Sp1d3rB0t lost connection: Disconnected
+[18:00:41] [User Authenticator #3/INFO]: UUID of player Sp1d3rB0t is 2adcb937-38c4-3abe-9218-061c14ddcd26
+[18:00:41] [Server thread/INFO]: Sp1d3rB0t[/127.215.210.245:41909] logged in with entity id 6539 at ([world]227.30000001192093, 67.0, 22.30000001192093)
+[18:00:51] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Sp1d3rB0t has successfully logged in.
+[18:00:54] [Async Chat Thread - #6/INFO]: [Not Secure] <Spider2742> !bot mine cobblestone
+[18:01:10] [Server thread/INFO]: Sp1d3rB0t lost connection: Disconnected
+[18:03:41] [User Authenticator #4/INFO]: UUID of player Sp1d3rB0t is 2adcb937-38c4-3abe-9218-061c14ddcd26
+[18:03:41] [Server thread/INFO]: Sp1d3rB0t[/127.215.210.245:33587] logged in with entity id 6864 at ([world]227.30000001192093, 67.0, 22.30000001192093)
+[18:03:54] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Sp1d3rB0t has successfully logged in.
+[18:03:58] [Async Chat Thread - #8/INFO]: [Not Secure] <Spider2742> !bot mine cobblestone
+[18:06:08] [Async Chat Thread - #10/INFO]: [Not Secure] <Spider2742> !bot stopmine
+[18:07:44] [Async Chat Thread - #13/INFO]: [Not Secure] <Spider2742> !bot mine cobblestone
+[18:13:07] [Server thread/INFO]: Sp1d3rB0t lost connection: Disconnected
+[18:13:20] [Server thread/INFO]: Spider2742 lost connection: Disconnected
+[18:14:32] [User Authenticator #5/INFO]: UUID of player Sp1d3rB0t is 2adcb937-38c4-3abe-9218-061c14ddcd26
+[18:14:33] [Server thread/INFO]: Sp1d3rB0t[/127.215.210.245:41071] logged in with entity id 8265 at ([world]227.30000001192093, 67.0, 22.30000001192093)
+[18:14:45] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Sp1d3rB0t has successfully logged in.
+[18:15:33] [User Authenticator #6/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
+[18:15:34] [Server thread/INFO]: Spider2742[/127.215.210.245:36409] logged in with entity id 8550 at ([world]244.5, 68.0, 38.5)
+[18:15:41] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Spider2742 has successfully logged in.
+[18:15:52] [Async Chat Thread - #14/INFO]: [Not Secure] <Spider2742> !bed
+[18:15:57] [Async Chat Thread - #14/INFO]: [Not Secure] <Spider2742> !bot bed
+[18:16:18] [Async Chat Thread - #14/INFO]: [Not Secure] <Spider2742> !bot !bed
+[18:17:09] [Server thread/INFO]: Sp1d3rB0t lost connection: Disconnected
+[18:17:27] [Server thread/INFO]: Spider2742 lost connection: Disconnected
