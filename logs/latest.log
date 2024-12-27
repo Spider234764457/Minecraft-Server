@@ -1,6 +1,0 @@
-[11:51:25] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Microsoft Microsoft-10376803) on Linux 6.5.0-1025-azure (amd64)
-[11:51:25] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-31-main@d0d0efe (2024-12-23T23:53:38Z) for Minecraft 1.21.4
-[11:51:25] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[11:51:26] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[11:51:26] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - DiscordSRV (1.29.0), Geyser-Spigot (2.6.0-SNAPSHOT), ProtocolLib (5.4.0-SNAPSHOT-738), ViaBackwards (5.2.0), ViaVersion (5.2.0), nLogin (10.4.18)
