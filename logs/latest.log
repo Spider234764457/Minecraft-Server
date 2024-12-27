@@ -1,159 +1,161 @@
-[12:19:43] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Microsoft Microsoft-10376803) on Linux 6.5.0-1025-azure (amd64)
-[12:19:43] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-31-main@d0d0efe (2024-12-23T23:53:38Z) for Minecraft 1.21.4
-[12:19:43] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[12:19:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[12:19:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - DiscordSRV (1.29.0), Geyser-Spigot (2.6.0-SNAPSHOT), ProtocolLib (5.4.0-SNAPSHOT-738), ViaBackwards (5.2.0), ViaVersion (5.2.0), nLogin (10.4.18)
-[12:19:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:19:53] [ServerMain/INFO]: Loaded 1370 recipes
-[12:19:53] [ServerMain/INFO]: Loaded 1481 advancements
-[12:19:53] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[12:19:53] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 288.3ms
-[12:19:54] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[12:19:54] [Server thread/INFO]: Loading properties
-[12:19:54] [Server thread/INFO]: This server is running Paper version 1.21.4-31-main@d0d0efe (2024-12-23T23:53:38Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[12:19:55] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[12:19:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:19:55] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:19:56] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[12:19:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[12:19:57] [Server thread/INFO]: Default game type: SURVIVAL
-[12:19:57] [Server thread/INFO]: Generating keypair
-[12:19:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:19:57] [Server thread/INFO]: Using epoll channel type
-[12:19:57] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[12:19:57] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[12:19:59] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
-[12:19:59] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
-[12:20:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[12:20:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[12:20:00] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[12:20:00] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[12:20:01] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0-SNAPSHOT-738
-[12:20:01] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.4) has not yet been tested! Proceed with caution.
-[12:20:01] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
-[12:20:02] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[12:20:02] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[12:20:02] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.29.0
-[12:20:02] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.18
-[12:20:04] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.0
-[12:20:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:20:04] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0-SNAPSHOT-738
-[12:20:04] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.18
-[12:20:05] [Server thread/INFO]: [nLogin] Successful plugin core start (took 1.11s)
-[12:20:05] [Server thread/INFO]:           __             _       
-[12:20:05] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
-[12:20:05] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
-[12:20:05] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
-[12:20:05] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
-[12:20:05] [Server thread/INFO]:                   |___/            
-[12:20:05] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.18 DEVELOPMENT
-[12:20:05] [Server thread/INFO]:  
-[12:20:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:20:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:20:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:20:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:20:06] [Server thread/INFO]: Preparing level "world"
-[12:20:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:20:07] [Server thread/INFO]: Preparing spawn area: 0%
-[12:20:08] [Server thread/INFO]: Preparing spawn area: 2%
-[12:20:09] [Server thread/INFO]: Preparing spawn area: 22%
-[12:20:09] [Server thread/INFO]: Preparing spawn area: 22%
-[12:20:09] [Server thread/INFO]: Time elapsed: 1605 ms
-[12:20:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[12:20:09] [Server thread/INFO]: Preparing spawn area: 0%
-[12:20:09] [Server thread/INFO]: Preparing spawn area: 46%
-[12:20:09] [Server thread/INFO]: Time elapsed: 637 ms
-[12:20:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[12:20:09] [Server thread/INFO]: Preparing spawn area: 0%
-[12:20:10] [Server thread/INFO]: Time elapsed: 212 ms
-[12:20:10] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
-[12:20:10] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
-[12:20:10] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
-[12:20:10] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
-[12:20:10] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.0
-[12:20:11] [Server thread/INFO]: [spark] Starting background profiler...
-[12:20:12] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[12:20:12] [Server thread/INFO]: [Geyser-Spigot] 
-[12:20:12] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b738 (git-master-6bd60d4)
-[12:20:12] [Server thread/INFO]: [Geyser-Spigot] 
-[12:20:12] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[12:20:12] [pool-19-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
-[12:20:13] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[12:20:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[12:20:16] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[12:20:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
-[12:20:20] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 25565
-[12:20:20] [Server thread/INFO]: [Geyser-Spigot] Done (8.484s)! Run /geyser help for help!
-[12:20:20] [Server thread/INFO]: Done preparing level "world" (13.889s)
-[12:20:20] [Server thread/INFO]: Running delayed init tasks
-[12:20:21] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[12:20:21] [Server thread/INFO]: Done (38.536s)! For help, type "help"
-[12:20:21] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 2/2 guilds (0 cancelled)
-[12:20:46] [User Authenticator #0/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
-[12:20:47] [Server thread/INFO]: Spider2742[/127.109.241.38:34427] logged in with entity id 75 at ([world]204.15528406249973, 69.0, 50.29914454433854)
-[12:20:52] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Spider2742 has successfully logged in.
-[12:25:36] [Server thread/INFO]: Spider2742 lost connection: Disconnected
-[12:29:12] [User Authenticator #1/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
-[12:29:13] [Server thread/INFO]: Spider2742[/127.109.241.38:43083] logged in with entity id 695 at ([world]250.9468208062764, 68.0, 45.99676249465113)
-[12:29:15] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Spider2742 has successfully logged in.
-[12:29:31] [Server thread/INFO]: Spider2742 lost connection: Disconnected
-[12:31:21] [User Authenticator #2/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
-[12:31:21] [Server thread/INFO]: Spider2742[/127.109.241.38:49647] logged in with entity id 915 at ([world]250.9468208062764, 68.0, 45.99676249465113)
-[12:31:23] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Spider2742 has successfully logged in.
-[12:37:07] [Server thread/INFO]: Spider2742 lost connection: Disconnected
-[12:41:10] [User Authenticator #3/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
-[12:41:11] [Server thread/INFO]: Spider2742[/127.109.241.38:36579] logged in with entity id 1573 at ([world]245.46621701868992, 68.0, 42.93928191834753)
-[12:41:18] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Spider2742 has successfully logged in.
-[12:52:40] [Server thread/INFO]: Spider2742 lost connection: Disconnected
-[12:53:55] [User Authenticator #4/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
-[12:53:55] [Server thread/INFO]: Spider2742[/127.109.241.38:36855] logged in with entity id 3398 at ([world]244.5, 68.0, 41.5)
-[12:53:58] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Spider2742 has successfully logged in.
-[12:57:20] [Server thread/INFO]: Spider2742 lost connection: Disconnected
-[12:58:19] [User Authenticator #5/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
-[12:58:20] [Server thread/INFO]: Spider2742[/127.109.241.38:36717] logged in with entity id 4171 at ([world]193.23404030191648, 69.0, 46.355696645589354)
-[12:58:25] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user Spider2742 has successfully logged in.
-[13:01:47] [Server thread/INFO]: Spider2742 lost connection: Disconnected
-[13:03:14] [User Authenticator #6/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
-[13:03:14] [Server thread/INFO]: Spider2742[/127.109.241.38:43267] logged in with entity id 4855 at ([world]246.26505402398897, 68.0, 41.208468891908325)
-[13:03:16] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user Spider2742 has successfully logged in.
-[13:19:33] [Server thread/INFO]: Spider2742 lost connection: Disconnected
-[13:29:33] [User Authenticator #7/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
-[13:29:33] [Server thread/INFO]: Spider2742[/127.109.241.38:32943] logged in with entity id 6985 at ([world]187.26808487217247, 68.0, 33.69969236443733)
-[13:29:36] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user Spider2742 has successfully logged in.
-[13:37:43] [Server thread/INFO]: Spider2742 lost connection: Disconnected
-[14:10:18] [User Authenticator #8/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
-[14:10:19] [Server thread/INFO]: Spider2742[/127.109.241.38:55479] logged in with entity id 8231 at ([world]191.43097261468117, 69.0, 47.18643329806985)
-[14:10:27] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user Spider2742 has successfully logged in.
-[14:13:33] [Server thread/INFO]: Spider2742 has completed the challenge [Serious Dedication]
-[14:33:53] [Server thread/INFO]: Spider2742 lost connection: Disconnected
-[14:41:12] [User Authenticator #9/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
-[14:41:13] [Server thread/INFO]: Spider2742[/127.109.241.38:43385] logged in with entity id 12792 at ([world]193.969174771391, 69.0, 52.489602956435064)
-[14:41:15] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Spider2742 has successfully logged in.
-[14:56:39] [Server thread/INFO]: Spider2742 lost connection: Disconnected
-[15:09:24] [User Authenticator #10/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
-[15:09:24] [Server thread/INFO]: Spider2742[/127.109.241.38:45287] logged in with entity id 14712 at ([world]242.4737157430812, 68.0, 39.06912739222185)
-[15:09:28] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user Spider2742 has successfully logged in.
-[15:09:42] [Server thread/INFO]: Spider2742 lost connection: Disconnected
-[15:41:06] [User Authenticator #11/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
-[15:41:06] [Server thread/INFO]: Spider2742[/127.109.241.38:34269] logged in with entity id 14933 at ([world]244.5, 68.0, 41.5)
-[15:41:11] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user Spider2742 has successfully logged in.
-[15:41:28] [Server thread/INFO]: Spider2742 lost connection: Disconnected
-[16:00:35] [User Authenticator #12/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
-[16:00:36] [Server thread/INFO]: Spider2742[/127.109.241.38:57757] logged in with entity id 15154 at ([world]239.62212516569238, 68.0, 40.42948955472205)
-[16:00:43] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user Spider2742 has successfully logged in.
-[16:07:47] [Server thread/INFO]: Villager Villager['Villager'/15187, uuid='2bb8307c-97c4-40fe-b85a-9e8bc9056b81', l='ServerLevel[world]', x=262.30, y=69.42, z=19.79, cpos=[16, 1], tl=449112, v=true] died, message: 'Villager was slain by Spider2742'
-[16:07:50] [Server thread/INFO]: Villager Villager['Villager'/15188, uuid='2ef44498-2f8e-4b77-b6f6-c1fb4ec6770a', l='ServerLevel[world]', x=263.70, y=68.00, z=20.47, cpos=[16, 1], tl=449202, v=true] died, message: 'Villager was slain by Spider2742'
-[16:14:45] [Server thread/INFO]: Spider2742 lost connection: Disconnected
-[16:28:46] [User Authenticator #13/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
-[16:28:46] [Server thread/INFO]: Spider2742[/127.109.241.38:35739] logged in with entity id 17371 at ([world]183.72881372737197, 73.1875, 43.707151284249775)
-[16:29:13] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user Spider2742 has successfully logged in.
-[16:39:47] [Server thread/WARN]: Spider2742 was kicked for floating too long!
-[16:39:47] [Server thread/INFO]: Spider2742 lost connection: Flying is not enabled on this server
-[16:39:50] [User Authenticator #14/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
-[16:39:51] [Server thread/INFO]: Spider2742[/127.109.241.38:50547] logged in with entity id 18906 at ([world]187.51431826394767, 71.51620829413258, 44.070506577677456)
-[16:39:53] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user Spider2742 has successfully logged in.
-[16:43:25] [Server thread/INFO]: Spider2742 lost connection: Disconnected
-[16:44:30] [User Authenticator #15/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
-[16:44:30] [Server thread/INFO]: Spider2742[/127.109.241.38:46203] logged in with entity id 19355 at ([world]184.2995304484016, 77.0, 42.700882074569336)
-[16:44:31] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user Spider2742 has successfully logged in.
+[16:55:27] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Microsoft Microsoft-10376803) on Linux 6.5.0-1025-azure (amd64)
+[16:55:27] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-31-main@d0d0efe (2024-12-23T23:53:38Z) for Minecraft 1.21.4
+[16:55:27] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:55:28] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
+[16:55:31] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 3348ms.
+[16:55:31] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[16:55:31] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - DiscordSRV (1.29.0), Geyser-Spigot (2.6.0-SNAPSHOT), ProtocolLib (5.4.0-SNAPSHOT-738), SkinsRestorer (15.5.1), ViaBackwards (5.2.0), ViaVersion (5.2.0), nLogin (10.4.18)
+[16:55:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:55:41] [ServerMain/INFO]: Loaded 1370 recipes
+[16:55:41] [ServerMain/INFO]: Loaded 1481 advancements
+[16:55:41] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[16:55:41] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 311.7ms
+[16:55:41] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[16:55:41] [Server thread/INFO]: Loading properties
+[16:55:41] [Server thread/INFO]: This server is running Paper version 1.21.4-31-main@d0d0efe (2024-12-23T23:53:38Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[16:55:42] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:55:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:55:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:55:43] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[16:55:43] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[16:55:44] [Server thread/INFO]: Default game type: SURVIVAL
+[16:55:44] [Server thread/INFO]: Generating keypair
+[16:55:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:55:44] [Server thread/INFO]: Using epoll channel type
+[16:55:44] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:55:44] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[16:55:46] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
+[16:55:46] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
+[16:55:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:55:48] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[16:55:48] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[16:55:48] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[16:55:49] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0-SNAPSHOT-738
+[16:55:49] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.4) has not yet been tested! Proceed with caution.
+[16:55:50] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.0
+[16:55:50] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
+[16:55:51] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[16:55:51] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[16:55:51] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.29.0
+[16:55:51] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
+[16:55:51] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.18
+[16:55:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:55:53] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0-SNAPSHOT-738
+[16:55:53] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[16:55:53] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[16:55:54] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
+[16:55:54] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[16:55:54] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.18
+[16:55:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:55:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[16:55:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[16:55:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[16:55:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[16:55:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[16:55:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:55:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.1
+[16:55:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: d5d8613
+[16:55:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[16:55:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:55:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[16:55:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[16:55:55] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.37s)
+[16:55:55] [Server thread/INFO]:           __             _       
+[16:55:55] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[16:55:55] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[16:55:55] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[16:55:55] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[16:55:55] [Server thread/INFO]:                   |___/            
+[16:55:55] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.18 DEVELOPMENT
+[16:55:55] [Server thread/INFO]:  
+[16:55:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:55:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:55:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:55:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:55:56] [Server thread/INFO]: Preparing level "world"
+[16:55:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:55:58] [Server thread/INFO]: Preparing spawn area: 0%
+[16:55:58] [Server thread/INFO]: Preparing spawn area: 0%
+[16:55:58] [Server thread/INFO]: Preparing spawn area: 0%
+[16:55:59] [Server thread/INFO]: Preparing spawn area: 22%
+[16:55:59] [Server thread/INFO]: Time elapsed: 1876 ms
+[16:55:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:55:59] [Server thread/INFO]: Preparing spawn area: 0%
+[16:55:59] [Server thread/INFO]: Preparing spawn area: 28%
+[16:55:59] [Server thread/INFO]: Time elapsed: 567 ms
+[16:55:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:55:59] [Server thread/INFO]: Preparing spawn area: 0%
+[16:55:59] [Server thread/INFO]: Time elapsed: 227 ms
+[16:55:59] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
+[16:55:59] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[16:56:00] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.0
+[16:56:00] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
+[16:56:00] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
+[16:56:01] [Server thread/INFO]: [spark] Starting background profiler...
+[16:56:01] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[16:56:01] [Server thread/INFO]: [Geyser-Spigot] 
+[16:56:01] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b738 (git-master-6bd60d4)
+[16:56:01] [Server thread/INFO]: [Geyser-Spigot] 
+[16:56:01] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[16:56:02] [pool-22-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
+[16:56:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[16:56:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[16:56:06] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[16:56:06] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
+[16:56:10] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 25565
+[16:56:10] [Server thread/INFO]: [Geyser-Spigot] Done (8.737s)! Run /geyser help for help!
+[16:56:10] [Server thread/INFO]: Done preparing level "world" (14.538s)
+[16:56:11] [Server thread/INFO]: Running delayed init tasks
+[16:56:11] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[16:56:11] [Server thread/INFO]: Done (45.348s)! For help, type "help"
+[16:56:11] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 2/2 guilds (0 cancelled)
+[16:56:22] [User Authenticator #0/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
+[16:56:23] [Server thread/INFO]: Spider2742[/127.109.241.38:47063] logged in with entity id 63 at ([world]243.31525871536894, 68.5625, 39.59850844385967)
+[16:56:26] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user Spider2742 has successfully logged in.
+[16:57:01] [Server thread/INFO]: Spider2742 lost connection: Disconnected
+[16:58:00] [Server thread/INFO]: Stopping the server
+[16:58:00] [Server thread/INFO]: Stopping server
+[16:58:01] [Server thread/INFO]: [nLogin] Disabling nLogin v10.4.18
+[16:58:01] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[16:58:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
+[16:58:01] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
+[16:58:01] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 796ms
+[16:58:01] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
+[16:58:01] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[16:58:01] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[16:58:01] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.0
+[16:58:01] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0-SNAPSHOT-738
+[16:58:01] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.0
+[16:58:01] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[16:58:01] [Server thread/INFO]: Saving players
+[16:58:02] [Server thread/INFO]: Saving worlds
+[16:58:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saved 154 block chunks, 154 entity chunks, 0 poi chunks in world 'world' in 0.38s
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[16:58:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.17s
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[16:58:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.07s
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[16:58:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:58:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:58:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:58:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:58:02] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[16:58:02] [Server thread/INFO]: All I/O tasks to complete
+[16:58:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[16:58:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
