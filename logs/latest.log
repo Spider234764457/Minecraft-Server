@@ -121,3 +121,4 @@
 [13:29:33] [User Authenticator #7/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
 [13:29:33] [Server thread/INFO]: Spider2742[/127.109.241.38:32943] logged in with entity id 6985 at ([world]187.26808487217247, 68.0, 33.69969236443733)
 [13:29:36] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user Spider2742 has successfully logged in.
+[13:37:43] [Server thread/INFO]: Spider2742 lost connection: Disconnected
