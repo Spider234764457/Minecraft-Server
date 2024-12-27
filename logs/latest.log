@@ -90,3 +90,34 @@
 [12:20:21] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
 [12:20:21] [Server thread/INFO]: Done (38.536s)! For help, type "help"
 [12:20:21] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 2/2 guilds (0 cancelled)
+[12:20:46] [User Authenticator #0/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
+[12:20:47] [Server thread/INFO]: Spider2742[/127.109.241.38:34427] logged in with entity id 75 at ([world]204.15528406249973, 69.0, 50.29914454433854)
+[12:20:52] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Spider2742 has successfully logged in.
+[12:25:36] [Server thread/INFO]: Spider2742 lost connection: Disconnected
+[12:29:12] [User Authenticator #1/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
+[12:29:13] [Server thread/INFO]: Spider2742[/127.109.241.38:43083] logged in with entity id 695 at ([world]250.9468208062764, 68.0, 45.99676249465113)
+[12:29:15] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Spider2742 has successfully logged in.
+[12:29:31] [Server thread/INFO]: Spider2742 lost connection: Disconnected
+[12:31:21] [User Authenticator #2/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
+[12:31:21] [Server thread/INFO]: Spider2742[/127.109.241.38:49647] logged in with entity id 915 at ([world]250.9468208062764, 68.0, 45.99676249465113)
+[12:31:23] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Spider2742 has successfully logged in.
+[12:37:07] [Server thread/INFO]: Spider2742 lost connection: Disconnected
+[12:41:10] [User Authenticator #3/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
+[12:41:11] [Server thread/INFO]: Spider2742[/127.109.241.38:36579] logged in with entity id 1573 at ([world]245.46621701868992, 68.0, 42.93928191834753)
+[12:41:18] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Spider2742 has successfully logged in.
+[12:52:40] [Server thread/INFO]: Spider2742 lost connection: Disconnected
+[12:53:55] [User Authenticator #4/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
+[12:53:55] [Server thread/INFO]: Spider2742[/127.109.241.38:36855] logged in with entity id 3398 at ([world]244.5, 68.0, 41.5)
+[12:53:58] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Spider2742 has successfully logged in.
+[12:57:20] [Server thread/INFO]: Spider2742 lost connection: Disconnected
+[12:58:19] [User Authenticator #5/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
+[12:58:20] [Server thread/INFO]: Spider2742[/127.109.241.38:36717] logged in with entity id 4171 at ([world]193.23404030191648, 69.0, 46.355696645589354)
+[12:58:25] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user Spider2742 has successfully logged in.
+[13:01:47] [Server thread/INFO]: Spider2742 lost connection: Disconnected
+[13:03:14] [User Authenticator #6/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
+[13:03:14] [Server thread/INFO]: Spider2742[/127.109.241.38:43267] logged in with entity id 4855 at ([world]246.26505402398897, 68.0, 41.208468891908325)
+[13:03:16] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user Spider2742 has successfully logged in.
+[13:19:33] [Server thread/INFO]: Spider2742 lost connection: Disconnected
+[13:29:33] [User Authenticator #7/INFO]: UUID of player Spider2742 is 2407ceaf-8fad-3970-9845-d8c24f42cafe
+[13:29:33] [Server thread/INFO]: Spider2742[/127.109.241.38:32943] logged in with entity id 6985 at ([world]187.26808487217247, 68.0, 33.69969236443733)
+[13:29:36] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user Spider2742 has successfully logged in.
