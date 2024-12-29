@@ -1,0 +1,18 @@
+[2024/12/29 13:08:22]: §9          __             _       
+[2024/12/29 13:08:22]: §9  _ __   / /  ___   __ _(_)_ __  
+[2024/12/29 13:08:22]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2024/12/29 13:08:22]: §9 | | | / /__| (_) | (_| | | | | |
+[2024/12/29 13:08:22]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2024/12/29 13:08:22]: §9                  |___/            
+[2024/12/29 13:08:22]: §9 By: www.nickuc.com - V 10.4.18 DEVELOPMENT
+[2024/12/29 13:08:22]: §9 
+[2024/12/29 13:08:23]: §3[nLogin] [DEBUG] All settings were loaded in 138 ms.
+[2024/12/29 13:08:23]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2024/12/29 13:08:23]: §3[nLogin] [DEBUG] All plugin messages were loaded in 132 ms (languageByClient=false).
+[2024/12/29 13:08:23]: §3[nLogin] [DEBUG] All proxy settings were loaded in 2 ms.
+[2024/12/29 13:08:23]: §3[nLogin] [DEBUG] Loading database...
+[2024/12/29 13:08:23]: §3[nLogin] [DEBUG] Starting logger filter...
+[2024/12/29 13:12:00]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Spider2742', `unique_id` = 2407ceaf8fad39709845d8c24f42cafe,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$DV.nWehUELbxMS8eu7yDieZc0S70j.Ul3ZNewEkEiGqHlIpP2b07S', `last_ip` = '127.109.241.38', `creation_date` = 2024-12-25 18:08:14.82, `last_seen` = 2024-12-29 13:12:00.87, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2024/12/29 13:12:00]: [nLogin] The user Spider2742 has successfully logged in.
+[2024/12/29 13:18:03]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Spider2742', `unique_id` = 2407ceaf8fad39709845d8c24f42cafe,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$DV.nWehUELbxMS8eu7yDieZc0S70j.Ul3ZNewEkEiGqHlIpP2b07S', `last_ip` = '127.109.241.38', `creation_date` = 2024-12-25 18:08:14.82, `last_seen` = 2024-12-29 13:18:03.801, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2024/12/29 13:18:50]: [nLogin] Successful plugin core shutdown (took 0.00s)
